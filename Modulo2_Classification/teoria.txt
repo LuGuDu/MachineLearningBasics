@@ -1,0 +1,8 @@
+En el machine learning de alto nivel tenemos el aprendizaje supervisado o no supervisado
+El aprendizaje supervisado implica que hay datos historicos previos, en el no supervisado, no.
+
+En el aprendizaje supervisado hay dos tipos de problemas:
+ - clasificacion (Verdadero o Falso, a veces hay otras categorias)
+ - regresion (valores numericos)
+
+ 
