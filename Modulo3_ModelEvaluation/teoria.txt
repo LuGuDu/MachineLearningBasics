@@ -142,3 +142,23 @@ positivos en el primer caso, valdria la pena tener un recall bajo para tener una
 
 No hay una regla fija sobre los valores de precisión y recall a los que hay que aspirar. Siempre depende del
 conjunto de datos y de la aplicación
+
+
+    ----------
+     F1 SCORE
+    ----------
+
+La exactitud (accuracy) era una métrica atractiva porque era solo un número. La precisión y el recall son dos
+números, por lo que no siempre es obvio cómo elegir entre dos modelos si uno tiene mayor precisión y el otro
+un mayor recall. El F1 Score es una media de la precisión y el recall, de modo que tenemos una única puntuación
+para nuestro modelo.
+
+Fórmula matemática del F1 Score:
+              precision * recall
+    F1 = 2 * --------------------
+              precision + recall
+
+De modo que el F1 Score es la media entre la precision y el recall.
+
+
+
