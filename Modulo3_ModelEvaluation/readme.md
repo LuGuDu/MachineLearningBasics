@@ -13,9 +13,9 @@ Siempre hay que tener cuidado con la exactitud. Es necesario conocer la
 distribución de las clases para saber como interpretar el valor.
 
 
-    ---------------------
-     MATRIZ DE CONFUSION
-    ---------------------
+   ---------------------
+    MATRIZ DE CONFUSION
+   ---------------------
 
 Entonces, no solo tenemos que preocuparnos de los datos para los que predecimos la
 clase correcta, sino también el número de datos positivos que predecimos correctamente,
@@ -38,7 +38,7 @@ Ejemplo:
 Tenemos 887 pasajeros: 342 sobrevivieron (positivo) y 545 no (negativo). Tenemos la siguiente
 matriz de confusion:
 
-                              Realmente correctos || Realmente incorrectos
+.                              Realmente correctos || Realmente incorrectos
                               --------------------||----------------------
 Predichos correctamente ---->         233         ||          65
 Predichos incorrectamente -->         109         ||          480
@@ -51,7 +51,7 @@ Podemos usar la matriz de confusion para calcular la exactitud. Como recordatori
 exactitud es el número de datos que hemos predicho correctamente dividido por el total de
 datos que hay.
 
-    (233+480)/(233+65+109+480) = 713/887 = 80.38%
+   (233+480)/(233+65+109+480) = 713/887 = 80.38%
 
 La matriz de confusion describe completamente el rendimiento de un modelo en un conjunto
 de datos, aunque es difícil de utilizar para comparar modelos.
@@ -76,9 +76,9 @@ Estos cuatro valores son utilizados para calcular diferentes métricas que se ve
 
 
 
-    -----------------------
-     PRECISION (PRECISION)
-    -----------------------
+   -----------------------
+    PRECISION (PRECISION)
+   -----------------------
 
 Dos métricas comunmente usadas para la clasificacion son la precisión y el recall. Conceptualmente
 la precision se refiere al porcentaje de resultados positivos que son relevantes y el recall el
@@ -98,9 +98,9 @@ Según el ejemplo anterior tenemos que la precision es:
 De modo que, la precisión es una medida de la exactitud del modelo en sus predicciones positivas
 
 
-    --------
-     RECALL
-    --------
+   --------
+    RECALL
+   --------
 
 Este valor es el porcentaje de casos positivos que el modelo predice correctamente. De nuevo, para
 calcularlo podemos usar la matriz de confusion.
@@ -117,9 +117,9 @@ De modo que, el recall es una medida de cuantos casos positivos puede recordar e
 
 
 
-    ---------------------------------------
-     COMPENSACION ENTRE PRECISION Y RECALL
-    ---------------------------------------
+   ---------------------------------------
+    COMPENSACION ENTRE PRECISION Y RECALL
+   ---------------------------------------
 
 Normalmente nos encontraremos en la situacion de elegir entre aumentar el recall (y disminuir la precision)
 o aumentar la precision (y disminuir el recall). Eso dependerá de la situación en la cual queramos maximizar
@@ -144,9 +144,9 @@ No hay una regla fija sobre los valores de precisión y recall a los que hay que
 conjunto de datos y de la aplicación
 
 
-    ----------
-     F1 SCORE
-    ----------
+   ----------
+    F1 SCORE
+   ----------
 
 La exactitud (accuracy) era una métrica atractiva porque era solo un número. La precisión y el recall son dos
 números, por lo que no siempre es obvio cómo elegir entre dos modelos si uno tiene mayor precisión y el otro
